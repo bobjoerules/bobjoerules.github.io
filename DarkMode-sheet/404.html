@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <link rel="canonical" href="https://darkmodesites.com">
+  <script>
+    const baseRedirect = "https://darkmodesites.com";
+    const currentPath = window.location.pathname;
+    const redirectPath = currentPath.split("/DarkMode-sheet")[1] || "";
+    const targetUrl = baseRedirect + redirectPath;
+    window.location.replace(targetUrl);
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a href="https://darkmodesites.com">https://darkmodesites.com</a>...</p>
+</body>
+</html>
