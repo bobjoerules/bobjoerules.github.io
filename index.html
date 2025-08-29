@@ -1,5 +1,18 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>Redirecting to https://bobjoerules.com</title>
-<meta http-equiv="refresh" content="0; URL=https://bobjoerules.com">
-<link rel="canonical" href="https://bobjoerules.com">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <link rel="canonical" href="https://bobjoerules">
+  <script>
+    const baseRedirect = "https://bobjoerules.com";
+    const currentPath = window.location.pathname;
+    const redirectPath = currentPath.split("/DarkMode-sheet")[1] || "";
+    const targetUrl = baseRedirect + redirectPath;
+    window.location.replace(targetUrl);
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a href="https://bobjoerules">https://bobjoerules</a>...</p>
+</body>
+</html>
